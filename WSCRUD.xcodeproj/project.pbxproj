@@ -13,6 +13,15 @@
 		0B14CE8B2AD1C08C00D3AAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B14CE892AD1C08C00D3AAF9 /* Main.storyboard */; };
 		0B14CE8D2AD1C08D00D3AAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B14CE8C2AD1C08D00D3AAF9 /* Assets.xcassets */; };
 		0B14CE902AD1C08D00D3AAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B14CE8E2AD1C08D00D3AAF9 /* LaunchScreen.storyboard */; };
+		0B14CE992AD1C0A700D3AAF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B14CE982AD1C0A700D3AAF9 /* Constants.swift */; };
+		0B14CE9C2AD1C16C00D3AAF9 /* PostResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B14CE9B2AD1C16C00D3AAF9 /* PostResponse.swift */; };
+		0B14CE9F2AD1C1C700D3AAF9 /* PostServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B14CE9E2AD1C1C700D3AAF9 /* PostServiceManager.swift */; };
+		0B3CE9B02ADA3FE400332898 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CE9AF2ADA3FE400332898 /* PostCell.swift */; };
+		0B3CE9BD2ADA505D00332898 /* PostLocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CE9BC2ADA505D00332898 /* PostLocalManager.swift */; };
+		0B3CE9C02ADA5DA800332898 /* WSCRUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CE9BE2ADA5DA800332898 /* WSCRUD.xcdatamodeld */; };
+		0B3CE9C32ADA5E2500332898 /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CE9C12ADA5E2500332898 /* Post+CoreDataClass.swift */; };
+		0B3CE9C42ADA5E2500332898 /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CE9C22ADA5E2500332898 /* Post+CoreDataProperties.swift */; };
+		0B3CE9C62ADA5FC500332898 /* DetailPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CE9C52ADA5FC500332898 /* DetailPost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		0B14CE8C2AD1C08D00D3AAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B14CE8F2AD1C08D00D3AAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B14CE912AD1C08D00D3AAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B14CE982AD1C0A700D3AAF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0B14CE9B2AD1C16C00D3AAF9 /* PostResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostResponse.swift; sourceTree = "<group>"; };
+		0B14CE9E2AD1C1C700D3AAF9 /* PostServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostServiceManager.swift; sourceTree = "<group>"; };
+		0B3CE9AF2ADA3FE400332898 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		0B3CE9BC2ADA505D00332898 /* PostLocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLocalManager.swift; sourceTree = "<group>"; };
+		0B3CE9BF2ADA5DA800332898 /* WSCRUD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WSCRUD.xcdatamodel; sourceTree = "<group>"; };
+		0B3CE9C12ADA5E2500332898 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0B3CE9C22ADA5E2500332898 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0B3CE9C52ADA5FC500332898 /* DetailPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,8 @@
 		0B14CE772AD1C08C00D3AAF9 = {
 			isa = PBXGroup;
 			children = (
+				0B3CE9C12ADA5E2500332898 /* Post+CoreDataClass.swift */,
+				0B3CE9C22ADA5E2500332898 /* Post+CoreDataProperties.swift */,
 				0B14CE822AD1C08C00D3AAF9 /* WSCRUD */,
 				0B14CE812AD1C08C00D3AAF9 /* Products */,
 			);
@@ -56,6 +76,9 @@
 		0B14CE822AD1C08C00D3AAF9 /* WSCRUD */ = {
 			isa = PBXGroup;
 			children = (
+				0B14CE9D2AD1C1B100D3AAF9 /* Service */,
+				0B14CE9A2AD1C10A00D3AAF9 /* Model */,
+				0B14CE972AD1C09900D3AAF9 /* Constants */,
 				0B14CE832AD1C08C00D3AAF9 /* AppDelegate.swift */,
 				0B14CE852AD1C08C00D3AAF9 /* SceneDelegate.swift */,
 				0B14CE872AD1C08C00D3AAF9 /* ViewController.swift */,
@@ -63,8 +86,36 @@
 				0B14CE8C2AD1C08D00D3AAF9 /* Assets.xcassets */,
 				0B14CE8E2AD1C08D00D3AAF9 /* LaunchScreen.storyboard */,
 				0B14CE912AD1C08D00D3AAF9 /* Info.plist */,
+				0B3CE9BE2ADA5DA800332898 /* WSCRUD.xcdatamodeld */,
+				0B3CE9C52ADA5FC500332898 /* DetailPost.swift */,
 			);
 			path = WSCRUD;
+			sourceTree = "<group>";
+		};
+		0B14CE972AD1C09900D3AAF9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0B14CE982AD1C0A700D3AAF9 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0B14CE9A2AD1C10A00D3AAF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B14CE9B2AD1C16C00D3AAF9 /* PostResponse.swift */,
+				0B3CE9AF2ADA3FE400332898 /* PostCell.swift */,
+				0B3CE9BC2ADA505D00332898 /* PostLocalManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B14CE9D2AD1C1B100D3AAF9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0B14CE9E2AD1C1C700D3AAF9 /* PostServiceManager.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3CE9C62ADA5FC500332898 /* DetailPost.swift in Sources */,
+				0B3CE9B02ADA3FE400332898 /* PostCell.swift in Sources */,
 				0B14CE882AD1C08C00D3AAF9 /* ViewController.swift in Sources */,
+				0B14CE9F2AD1C1C700D3AAF9 /* PostServiceManager.swift in Sources */,
 				0B14CE842AD1C08C00D3AAF9 /* AppDelegate.swift in Sources */,
 				0B14CE862AD1C08C00D3AAF9 /* SceneDelegate.swift in Sources */,
+				0B3CE9BD2ADA505D00332898 /* PostLocalManager.swift in Sources */,
+				0B14CE992AD1C0A700D3AAF9 /* Constants.swift in Sources */,
+				0B3CE9C42ADA5E2500332898 /* Post+CoreDataProperties.swift in Sources */,
+				0B3CE9C32ADA5E2500332898 /* Post+CoreDataClass.swift in Sources */,
+				0B14CE9C2AD1C16C00D3AAF9 /* PostResponse.swift in Sources */,
+				0B3CE9C02ADA5DA800332898 /* WSCRUD.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +423,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B3CE9BE2ADA5DA800332898 /* WSCRUD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B3CE9BF2ADA5DA800332898 /* WSCRUD.xcdatamodel */,
+			);
+			currentVersion = 0B3CE9BF2ADA5DA800332898 /* WSCRUD.xcdatamodel */;
+			path = WSCRUD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0B14CE782AD1C08C00D3AAF9 /* Project object */;
 }
