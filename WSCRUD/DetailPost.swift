@@ -44,12 +44,14 @@ class DetailPost: UIViewController {
         if post == nil{
             post = Post(context: context)
         }
-        post?.id = id!
-        post?.userId = userId!
+        postLocalManager?.fetch()
+        post?.id = id ?? Int64((postLocalManager?.countLocalPosts())!)
+        post?.userId = userId ?? 0
         post?.title = title
         post?.body = body
         
         destination.post = post
+        
     }
     
 
